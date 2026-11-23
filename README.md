@@ -32,6 +32,7 @@ python src/insert_bulk_chunk.py
 
 ## Tóm tắt kết quả
 Phương pháp,Tổng dòng,Thời gian,Tốc độ trung bình,File DB
+| :--- | :---: | :---: |
 Cách 1: Batch 1k,"13,069,067",253.68s,"~51,518 rows/s","1,392.2 MB"
 Cách 2: Bulk 50k + WAL,"13,069,067",180.81s,"~72,284 rows/s","1,392.2 MB"
 
